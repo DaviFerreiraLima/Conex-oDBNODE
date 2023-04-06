@@ -1,0 +1,5 @@
+const myqsl= require('../infraestrutura/db/mysql')
+
+const conexao = myqsl.getConnection();
+
+console.log('Conexão: '+conexao);
